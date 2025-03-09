@@ -3,7 +3,7 @@ name: 8820s-hwnat
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 20 * * *
+    - cron: 0 04 * * *
 
 env:
   REPO_URL: https://github.com/mengke10086/lede.git
