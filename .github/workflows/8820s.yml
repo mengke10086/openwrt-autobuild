@@ -6,7 +6,7 @@ on:
     - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/mengke10086/immortalwrt.git
+  REPO_URL: https://github.com/mengke10086/lede.git
   REPO_BRANCH: master
   CONFIG_FILE: configs/8820s.config
   DIY_SCRIPT: diy-8820s.sh
