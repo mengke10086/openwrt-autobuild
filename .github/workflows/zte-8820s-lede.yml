@@ -1,9 +1,7 @@
 name: zte-8820s-lede-hwnat
 
-on:
+on: 
   workflow_dispatch:
-  schedule:
-    - cron: 0 20 * * *
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede.git
